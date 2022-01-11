@@ -1,0 +1,22 @@
+
+Informações da API 
+
+- API Feita em Node JS v14.16.0.
+- Utilizando o módulo mysql2.
+
+Instruções : 
+
+1- O banco de dados esta estruturado no Mysql, coloque-o em algum serviço para executa-lo.   
+2- No arquivo principal INDEX.JS da pasta da API, esta todo o código utilizado na API.
+3- Verificar no INDEX.JS as crendenciais como user, password, database e porta que são as configurações de conexão com o banco de dados. 
+4- Navegue até o diretorio raiz da pasta.   
+   Installe essas denpêndencias para rodar a API. 
+   - node
+   - npm 
+   - express, cors, body-parser, mysql2.
+	# Voce pode instalar os pacotes do npm atraves do comando: npm install express cors body-parser mysql2. 
+   - nodemon 
+	# Instale o utilitário nodemon, atraves do comando: npm i -g nodemon.
+
+5- Agora para rodar o serviço da API utilize o seguinte comando: modemon index.js.  
+
